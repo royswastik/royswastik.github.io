@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roy | Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/vue.min.js"></script>
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="https://github.com/royswastik/royswastik.github.io/blob/master/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://github.com/royswastik/royswastik.github.io/blob/master/favicon.ico" type="image/x-icon">
+    <link href="https://github.com/royswastik/royswastik.github.io/blob/master/https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://github.com/royswastik/royswastik.github.io/blob/master/libs/font-awesome/css/font-awesome.min.css">
+    <link href="https://github.com/royswastik/royswastik.github.io/blob/master/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://github.com/royswastik/royswastik.github.io/blob/master/css/styles.css" rel="stylesheet">
+    <script src="https://github.com/royswastik/royswastik.github.io/blob/master/js/vue.min.js"></script>
 </head>
 
 <body>
@@ -27,22 +27,22 @@
           </div>
           <ul id="menu" class="shadow">
               <li>
-                  <a href="#about">About</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#about">About</a>
               </li>
               <li>
-                  <a href="#skill">Skills</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#skill">Skills</a>
               </li>
               <li>
-                  <a href="#experience">Experience</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#experience">Experience</a>
               </li>
               <li>
-                  <a href="#education">Education</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#education">Education</a>
               </li>
               <li>
-                  <a href="#projects">Projects</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#projects">Projects</a>
               </li>
               <li>
-                  <a href="#contact">Contact</a>
+                  <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#contact">Contact</a>
               </li>
           </ul>
       </header>
@@ -52,7 +52,7 @@
           <div id="lead-content">
               <h1>{{meta.fullName}}</h1>
               <h2>{{meta.tagLine}}</h2>
-              <a href="#" class="btn-rounded-white">Download Resume</a>
+              <a href="https://github.com/royswastik/royswastik.github.io/blob/master/#" class="btn-rounded-white">Download Resume</a>
           </div>
           <!-- End #lead-content -->
 
@@ -166,7 +166,7 @@
                 <template v-for="project in projects">
                   <div class="project shadow-large">
                       <div class="project-image" v-bind:style="{background: (project.imgColor)?project.imgColor:'transparent' }">
-                          <img v-bind:src="project.img" style="width: 256px;height: 256px;" v-bind:style="{    transform: (project.imgColor)?'scale(0.5,0.5)':'scale(1,1)'}"/>
+                          <img v-bind:src="https://github.com/royswastik/royswastik.github.io/blob/master/project.img" style="width: 256px;height: 256px;" v-bind:style="{    transform: (project.imgColor)?'scale(0.5,0.5)':'scale(1,1)'}"/>
                       </div>
                       <!-- End .project-image -->
                       <div class="project-info">
@@ -176,7 +176,7 @@
 
                           </p>
                           <div style="inline-block">
-                            <a v-if="project.viewProjectUrl" v-bind:href="project.viewProjectUrl">View Project</a> &nbsp; &nbsp; <a style="cursor:pointer;" @click="project['detailBox'] = true">My Work</a>
+                            <a v-if="project.viewProjectUrl" v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/project.viewProjectUrl">View Project</a> &nbsp; &nbsp; <a style="cursor:pointer;" @click="project['detailBox'] = true">My Work</a>
                           </div>
                           <br />
                           <p v-if="project.note" style="font-size:9pt; font-style:italic;">Note: {{project.note}}</p>
@@ -255,19 +255,19 @@
                   <div class="col-sm-5 social">
                       <ul>
                           <li>
-                              <a v-bind:href="meta.github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                              <a v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/meta.github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                              <a v-bind:href="meta.linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              <a v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/meta.linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                              <a v-bind:href="meta.facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              <a v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/meta.facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                           </li>
                           <!-- <li>
-                              <a v-bind:href="meta.twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                              <a v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/meta.twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                           </li>
                           <li>
-                              <a v-bind:href="meta.gplus" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                              <a v-bind:href="https://github.com/royswastik/royswastik.github.io/blob/master/meta.gplus" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                           </li> -->
                       </ul>
                   </div>
@@ -278,8 +278,8 @@
     </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="https://github.com/royswastik/royswastik.github.io/blob/master/https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://github.com/royswastik/royswastik.github.io/blob/master/js/scripts.min.js"></script>
     <script>
 
     </script>
