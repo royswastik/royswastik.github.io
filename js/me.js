@@ -158,6 +158,13 @@ var data = {
   }],
   experience: [
     {
+      employerName: "GOLDMAN​ ​SACHS",
+      jobTitle: "TECHNOLOGY​ ​SUMMER​ ​ANALYST",
+      description: "I​ ​was​ ​a​ ​summer​ ​analyst​ ​at​ ​Salt​ ​Lake​ ​City Office.",
+      bullets: false,
+      dataDate: "May​ ​2018​ ​–​ ​August​ ​2018"
+    },
+    {
       employerName: "ARIZONA​ ​STATE​ ​UNIVERSITY",
       jobTitle: "GRADUATE​ ​TEACHING​ ​ASSISTANT",
       description: "Teaching​ ​Assistant​ ​for​ ​course​ ​CSE340​ ​“Principles​ ​of​ ​Programming​ ​Languages.",
