@@ -48,25 +48,6 @@ var data = {
     }
     ,
     {
-      name: "Scorenexus",
-      time: "",
-      description: "Scorenexus is world's biggest online test taking platform used daily by TOEFL test takers. ",
-      bullets: [
-          "Extended​ ​Scorenexus​ ​website ​using​ ​PHP​ ​Codigniter​ ​framework.",
-          "Developed browser checking module for the test using Modernizer.js.",
-          "Implemented​ ​in-browser​ ​audio​ ​encoding(mp3, ogg and wav) using libmp3lame.js.",
-          "Integrate​ ​payment​ ​gateway​ ​using​ ​Foxycart​ ​framework.",
-          "Implemented sidecart functionality to enable users to have rich experience when buying tests on the website",
-          "Optimized time to encode mp3 audio from 20 seconds to minimum 0.5 seconds",
-          "Implemented user authentication functionality with support of multiple types of users"
-      ],
-      note: false,
-      img: "images/project/scorenexus.png",
-      imgColor: "black",
-      viewProjectUrl: 'https://scorenexus.com'
-    }
-    ,
-    {
       name: "Munchbot",
       time: "",
       description: "Munchbot is a data extraction tool to extract semi-structured data from web, pdf, doc and docx documents.",
@@ -177,13 +158,6 @@ var data = {
       description: "Beehyv has provided me a plethora of learning opportunities. I have been working as a Full Stack Developer.",
       bullets: "Engineered​ ​end​ ​to​ ​end​ ​modules​ ​for​ ​a​ ​Question-Answering​ ​Platform​ ​used​ ​to​ ​answer​ ​user​ ​queries​ ​on​ ​ecommerce​ ​websites.  \nIncreased accuracy of the software to interpret questions by 18% using​ Natural Language Processing techniques such as dependency​ ​parsing,​ ​named​ ​entity​ ​recognition,​ ​relationship​ ​extraction​ ​and​​ ​​Machine​ ​Learning​​ ​to​ ​classify​ ​questions. \nDeveloped​ ​​crawlers​​ ​and​ ​​parsers​​ ​to​ ​extract​ ​text​ ​from​ ​documents(DOC,​ ​PDF)​ ​&​ ​Web​ ​using​ ​Apache​ ​Nutch,​ ​JSoup,​ ​HTMLUnit. \nImproved accuracy of HTML DOM based approach to ​extract semi-structured data from web by extending with visual approach​ ​using​ ​CSSBox​ ​library,​ ​from​ ​51%​ ​to​ ​65%. \nProgrammed​ ​REST​ ​services​ ​using​​ ​Java​ ​Spring​​ ​Backend​ ​and​ ​​Hibernate​. \nImplemented​ ranking​ ​algorithm​ ​to​ ​rank​ ​answer​ ​responses​ ​based​ ​on​ ​the​ ​cosine​ ​similarity​ ​of​ ​their​ ​word​ ​vectors. \nBuilt​ ​plugins(​Magento,​ ​Jira​ ​&​ ​Standalone​ ​Javascript​ ​SDK​)​ ​to​ ​integrate​ ​the​ ​platform​ ​into​ ​third​ ​party​ ​websites. \nRedesigned​ ​and​ ​optimized​ ​official​ ​website​ ​of​ ​Beehyv​ ​for​ ​search​ ​engines. \nCreated​ ​kiosk​ ​app​ ​to​ ​control​ ​​salad​ ​making​ ​robot​ ​Sally(Chowbotics​ ​Inc.)​ ​using​ ​Android​ ​and​ ​GCode​ ​to​ ​operate​ ​CNC​ ​machine. \nManaged a team of developers, built android application and map visualization to monitor survival of low birth weight babies using​ ​​Highcharts​ ​charting​ ​library​ ​​and​ ​​TurfJS​. ",
       dataDate: "June, 2015 - June, 2017"
-    },
-    {
-      employerName: "SCORENEXUS",
-      jobTitle: "WEB​ ​DEVELOPER​ ​&​ ​INDEPENDENT​ ​CONTRACTOR",
-      description: "Scorenexus is an online test taking platform used daily by TOEFL test takers.",
-      bullets: "Extended​ ​Scorenexus​ ​website ​using​ ​PHP​ ​Codigniter​ ​framework. \nImplemented​ ​in-browser​ ​audio​ ​encoding(mp3, ogg and wav) using libmp3lame.js.\nIntegrate​ ​payment​ ​gateway​ ​using​ ​Foxycart​ ​framework ",
-      dataDate: "June​ ​2017​ ​–​ ​August​ ​2017"
     },
     {
       employerName: "SOCIALHOOP​​",
